@@ -1,0 +1,104 @@
+﻿
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'vazir';
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #5256ad;
+    overflow-x: hidden;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.drag-area{
+    margin-top: 3rem;
+    border: 2px dashed #fff;
+    height: 500px ;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.drag-area .icon{
+    font-size: 100px;
+    color: #fff;
+
+}
+.drag-area header{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.drag-area.active{
+    border: 2px solid #fff;
+}
+.drag-area span{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'vazir';
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #5256ad;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:10;
+    width: 700px;
+    height: 500px;
+    display: none;
+    object-fit: cover;
+    
+    
+}
+
+a
+{
+    outline: none;
+    border: none;
+    padding: 10px 25px ;
+    margin-top: 25px;
+    background: #fff;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.control
+{
+    width: 700px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+
+
